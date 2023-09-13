@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* Remove default margin */
 body,
 h1,
@@ -57,7 +62,7 @@ body {
 .hero {
   display: flex;
   justify-content: left;
-  align-items: center;
+  align-items: start;
   position: relative;
 }
 
@@ -76,13 +81,14 @@ body {
   font-weight: 400;
   line-height: 15px;
   letter-spacing: 0em;
+  margin-top: 3em;
 }
 
 .overlay-text-headline {
   position: absolute;
   color: white;
   text-align: center;
-  margin-top: 3em;
+  margin-top: 2em;
   font-family: 'Source Sans 3', sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -91,20 +97,80 @@ body {
   text-align: left;
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
+.overlay-para {
+  position: absolute;
+  color: white;
+  margin-top: 10em;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  width: 90%;
+}
+
+/* articles grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 10px;
+  /* padding: 10px; */
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+  padding: 20px 15px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.article-image {
+  width: 100%;
+}
+
+.article-date {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.intro {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
   }
 }
 
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto auto;
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
+@media screen and (min-width: 901px) {
+  .grid-container {
+    grid-template-columns: auto auto auto;
   }
 }
