@@ -1,5 +1,26 @@
 import articles from './data.js'
 
+// get the article id from the url
+const queryString = window.location.search
+const urlParams = new URLSearchParams(queryString)
+const id = urlParams.get('id')
+
+console.log(articles[id - 1])
+
+let date = document.getElementById('date')
+let title = document.getElementById('title')
+let intro = document.getElementById('intro')
+let content = document.getElementById('content')
+let articleImage = document.getElementById('article-image')
+
+date.innerHTML = articles[id - 1].date
+title.innerHTML = articles[id - 1].title
+intro.innerHTML = articles[id - 1].intro
+content.innerHTML = articles[id - 1].content
+articleImage.innerHTML = `<img src="./images/${
+  articles[id - 1].image
+}" alt="article image" />`
+
 let recentPosts = document.getElementById('recent-posts-grid-container')
 
 // select 3 articles from the array
