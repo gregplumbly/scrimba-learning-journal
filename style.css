@@ -300,3 +300,7 @@ main {
 .recent-posts {
   text-align: center;
 }
+
+.about-content {
+  padding: 20px;
+}
