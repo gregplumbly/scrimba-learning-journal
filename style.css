@@ -251,3 +251,24 @@ footer {
     width: 70%;
   }
 }
+
+/* articles page */
+
+main {
+  background-color: #fafafa;
+}
+
+article {
+  padding: 40px 60px;
+}
+
+.recent-posts {
+  text-align: center;
+}
+
+.recent-posts-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
