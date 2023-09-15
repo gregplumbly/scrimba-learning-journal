@@ -12,15 +12,18 @@ const articles = [
   {
     id: 2,
     title: 'My second article',
-    intro: 'This is an intro of my second article',
-    content: 'This is my second article',
+    intro:
+      'This is an intro of my second article .I am learning a lot. Lorem ipsum dolor sit amet consectetur adipisicing elit. sequi impedit laudantium officiis veritatis unde aliquid voluptatem perferendis dicta exercitationem error doloribus.',
+    content:
+      'This is my second article. I am learning a lot.Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam architecto magni accusantium obcaecati libero quo magnam optio, sequi impedit laudantium officiis veritatis unde aliquid voluptatem perferendis dicta exercitationem error doloribus. sequi impedit laudantium officiis veritatis unde aliquid voluptatem perferendis dicta exercitationem error doloribus.',
     date: 'Jul 22, 2021',
     image: 'article-image-2.png',
   },
   {
     id: 3,
     title: 'My third article',
-    intro: 'This is an intro of my third article',
+    intro:
+      'This is an intro of my third article. I am learning a lot. Lorem ipsum dolor sit amet consectetur adipisicing elit. sequi impedit laudantium officiis veritatis unde aliquid voluptatem perferendis dicta exercitationem error doloribus.',
     content: 'This is my third article',
     date: 'Jul 22, 2021',
     image: 'article-image-3.png',
@@ -28,7 +31,8 @@ const articles = [
   {
     id: 4,
     title: 'My fourth article',
-    intro: 'This is an intro of my fourth article',
+    intro:
+      'This is an intro of my fourth article. I am learning a lot. Lorem ipsum dolor sit amet consectetur adipisicing elit. sequi impedit laudantium officiis veritatis unde aliquid voluptatem perferendis dicta exercitationem error doloribus.',
     content: 'This is my fourth article',
     date: 'Jul 22, 2021',
     image: 'article-image-4.png',
@@ -36,7 +40,8 @@ const articles = [
   {
     id: 5,
     title: 'My fifth article',
-    intro: 'This is an intro of my fifth article',
+    intro:
+      'This is an intro of my fifth article. I am learning a lot. Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
     content: 'This is my fifth article',
     date: 'Jul 22, 2021',
     image: 'article-image-5.png',
@@ -44,7 +49,8 @@ const articles = [
   {
     id: 6,
     title: 'My sixth article',
-    intro: 'This is an intro of my sixth article',
+    intro:
+      'This is an intro of my sixth article. I am learning a lot. Lorem ipsum dolor sit amet consectetur adipisicing elit. ',
     content: 'This is my sixth article',
     date: 'Jul 22, 2021',
     image: 'article-image-6.png',
