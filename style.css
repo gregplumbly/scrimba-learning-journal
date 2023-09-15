@@ -199,14 +199,14 @@ p {
   width: 100%;
 }
 
-.nav,
+/* .nav,
 .more,
 a h2,
 a .home-intro,
 a .article-date {
   font-family: 'Source Sans 3', sans-serif;
   text-align: left;
-}
+} */
 
 .nav {
   font-size: 12px;
@@ -356,4 +356,8 @@ a .article-date {
     flex-direction: row;
     padding: 20px;
   }
+}
+
+.inactive {
+  text-decoration: underline;
 }
