@@ -17,7 +17,7 @@ date.innerHTML = articles[id - 1].date
 title.innerHTML = articles[id - 1].title
 intro.innerHTML = articles[id - 1].intro
 content.innerHTML = articles[id - 1].content
-articleImage.innerHTML = `<img src="./images/${
+articleImage.innerHTML = `<img class="main-image"src="./images/${
   articles[id - 1].image
 }" alt="article image" />`
 
