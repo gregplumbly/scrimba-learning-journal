@@ -137,32 +137,26 @@ body {
   width: 100%;
 }
 
-.article-date {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-h2 {
+a h2 {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 26px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 4px;
 }
 
-.intro {
+a .intro {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
+  margin-top: 4px;
 }
+
 footer {
   display: flex;
   justify-content: center;
@@ -303,4 +297,18 @@ main {
 
 .about-content {
   padding: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+a .article-date {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  margin-top: 4px;
 }
