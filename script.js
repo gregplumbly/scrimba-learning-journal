@@ -10,7 +10,7 @@ articles.forEach((article) => {
             <img class="article-image" src="./images/${article.image}" />
             <p class="article-date">${article.date}</p>
             <h2>${article.title}</h2>
-            <p class="intro">
+            <p class="home-intro">
               ${article.intro}
             </p>
           </div>

@@ -94,6 +94,7 @@ body {
   line-height: 35px;
   letter-spacing: -0.03em;
   text-align: left;
+  width: 90%;
 }
 
 .overlay-para {
@@ -137,7 +138,7 @@ a h2 {
   margin-top: 4px;
 }
 
-a .intro {
+a .home-intro {
   font-family: 'Source Sans 3', sans-serif;
   font-size: 16px;
   font-weight: 400;
