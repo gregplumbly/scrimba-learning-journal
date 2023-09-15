@@ -66,6 +66,10 @@ body {
   padding-right: 15px;
 }
 
+img {
+  width: 100%;
+}
+
 .hero {
   background-image: url('./images/article-image-hero.png');
   background-size: cover;
